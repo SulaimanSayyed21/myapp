@@ -1,0 +1,36 @@
+{
+    "name": "Verbal Reasonnign for 11+",
+    "short_name": "11+",
+    "lang": "en",
+    "description": "it is made in express node js frame work and acts as a  Progressive Web App too",
+    "icons": [
+        {
+            "src": "/icon/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon/favicon.ico",
+            "type": "image/ico",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/icon/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/icon/icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "/",
+    "id": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3367D6",
+    "orientation": "portrait"
+}

@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "$id": "",
+    "title": "Opposites Lesson Data",
+    "description": "A collection of lessons with questions and answers.",
+    "type": "object",
+    "data":{
+        "lessons": [
+            {
+              "lesson_number": 1,
+              "questions": [
+                {
+                  "question_number": 1,
+                  "words": ["ability", "capable", "inability", "liability", "real"],
+                  "answer": ["ability", "inability"]
+                },
+                {
+                  "question_number": 2,
+                  "words":  ["concise", "compact", "truth", "broad", "lengthy"],
+                  "answer": ["concise", "lengthy"]
+                }
+              ]
+            },
+            {
+            "lesson_number": 2,
+            "questions": [
+              {
+                "question_number": 1,
+                "words":["compile", "gather", "admit", "insult", "deny"],
+                "answer":["admit", "deny"]
+              },
+              {
+                "question_number": 2,
+                "words":  ["ally", "enemy", "answer", "center", "decline"],
+                "answer": ["enemy", "ally"]
+              }
+            ]
+          }
+        ]
+    }
+}

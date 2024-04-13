@@ -1,0 +1,59 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b4b4e5;
+    color: #171717;
+    padding: 0px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items horizontally */
+    height:50px;
+   
+}
+
+footer {
+    background-color: #b4b4e5;
+    color: #171717;
+    padding: 0px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items horizontally */ 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height:70px;
+}
+
+.form-container{
+
+    border: 1px solid #ccc;
+}
+
+/* Nedded for viwport */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.anchor{
+    font-size: 18px;
+    background-color: #b4b4e5;
+    color: #171717;
+      padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* For home page contents */
+.background-image {
+    background-size: cover;
+    background-position: center;
+    height: 75vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+}
